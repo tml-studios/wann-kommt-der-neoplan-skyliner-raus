@@ -1,0 +1,58 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #3b3838;
+	color: #ffffff;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.clearfix {
+	padding: 0px;
+}
+
+.trolled {
+	font-family: 'Comic Sans MS';
+}
+
+.center {
+	text-align: center;
+}
+
+.header-title {
+	margin: 16px;
+	margin-bottom: 22px;
+}
+
+.background-cover {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Bootstrap overrides */
+.alert {
+	border: none;
+	border-radius: 0px;
+}
+
+.alert-success {
+	background-color: #70AD47;
+	color: #fff !important;
+}
+
+.alert-info {
+	background-color: #007acc;
+	color: #fff !important;
+}
+
+.alert a {
+	color: #fff !important;
+}
+
+.alert h3 {
+	margin-top: 0px;
+}
